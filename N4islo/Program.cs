@@ -84,11 +84,11 @@ namespace N4islo
 
                 
                 
-                int[] _gr = new int[countGroup];//Создание массива для добавления в группы
-                Array.Copy(group, Array.BinarySearch(group, 1) + 1, _gr, 0, countGroup);//копирование в него значений старше 1
+                int[] group2 = new int[countGroup];//Создание массива для добавления в группы
+                Array.Copy(group, Array.BinarySearch(group, 1) + 1, group2, 0, countGroup);//копирование в него значений старше 1
 
                 /// Добавление группы в массив групп
-                groups[indexGroup] = _gr;
+                groups[indexGroup] = group2;
                 indexGroup++;
 
             }
