@@ -191,7 +191,7 @@ namespace N4islo
             string result = null;
             foreach (int item in array)
             {
-                result += item + " ";
+                result += item.ToString() + " ";
             }
             return result;
         }//Преобразует одномерный массив в строку
